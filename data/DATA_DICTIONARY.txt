@@ -1,0 +1,10 @@
+AZGREEN DEMO DATA
+All values are Prototype / Simulated Data.
+
+Bins.csv: bin_id, location, waste_type, latitude, longitude, capacity_kg, fill_level, status, last_collection, collection_priority, sensor_status
+Waste_Collection.csv: collection_id, bin_id, batch_id, date, waste_type, weight_kg, collector, destination
+Recycling.csv: batch_id, input_weight, sorted_weight, processed_weight, output_weight, material, processing_date
+Machine.csv: machine_id, status, material, input_weight, processed_weight, processing_time, temperature, power_consumption
+Impact.csv: date, waste_diverted, recycled_material, co2_avoided_demo (illustrative only)
+Collection_Points.csv: point_id, location, latitude, longitude, point_type
+Student_Engagement.csv: area, active_students, recycling_actions, points_earned, waste_diverted_kg, participation_rate

@@ -1,0 +1,7 @@
+location,latitude,longitude,point_id,point_type
+Administration,30.05701290833333,31.315216961111116,CP-01,Collection Point
+Agriculture,30.054802908333333,31.31813296111111,CP-02,Collection Point
+Cafeteria,30.056205575000003,31.317349294444448,CP-03,Collection Point
+Dormitory,30.057374908333333,31.31590629444445,CP-04,Collection Point
+Engineering,30.055385325000003,31.315995794444447,CP-05,Collection Point
+Student Activities,30.055963575000003,31.319333294444448,CP-06,Collection Point

@@ -1,0 +1,7 @@
+import streamlit as st
+from utils.ui import css,sidebar,header,footer
+st.set_page_config(page_title='AZGREEN | AI Future',page_icon='🤖',layout='wide');css();sidebar();header('AI / Advanced Analytics','Planned intelligence layer for prediction and optimization',True)
+items=[('Overflow Prediction','Predict when a bin will reach critical fill level.'),('Waste Forecasting','Forecast waste volume by area and material.'),('High-Waste Area Detection','Detect abnormal or rising waste generation.'),('Collection Demand','Predict which bins need collection next.'),('Route Optimization','Optimize routes using priority + GIS distance.'),('Waste Classification','Classify material from images after model validation.')];cols=st.columns(3)
+for i,(t,d) in enumerate(items):
+ with cols[i%3]:st.markdown(f'<div class="card" style="margin-bottom:12px"><b style="color:#0B5D2A">{t}</b><p style="color:#66756B;font-size:.8rem">{d}</p><span class="tag">Future Development</span></div>',unsafe_allow_html=True)
+st.markdown('<div class="arch"><div class="abox">Historical / IoT Data</div><div class="arr">→</div><div class="abox">Features</div><div class="arr">→</div><div class="abox">ML / Analytics</div><div class="arr">→</div><div class="abox">Prediction</div><div class="arr">→</div><div class="abox">Decision</div></div>',unsafe_allow_html=True);st.info('No live AI model is claimed in this prototype.');footer()

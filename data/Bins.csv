@@ -1,0 +1,21 @@
+bin_id,location,waste_type,latitude,longitude,capacity_kg,fill_level,status,last_collection,collection_priority,sensor_status
+B01,Engineering,Organic,30.055523450000003,31.315727950000003,60,50,Monitor,2026-08-14,Medium,Online
+B02,Cafeteria,Mixed,30.056109450000005,31.317411950000004,70,74,Monitor,2026-08-12,Medium,Online
+B03,Dormitory,Paper,30.057305450000005,31.315997950000003,60,45,Monitor,2026-08-15,Medium,Online
+B04,Agriculture,Paper,30.054780450000003,31.318075950000004,70,51,Monitor,2026-08-15,Medium,Online
+B05,Administration,Metal,30.056818450000005,31.315421950000005,50,66,Monitor,2026-08-15,Medium,Online
+B06,Student Activities,Glass,30.055900450000003,31.319348950000006,70,69,Monitor,2026-08-12,Medium,Online
+B07,Engineering,Plastic,30.055823450000005,31.316113950000005,60,27,Normal,2026-08-13,Low,Online
+B08,Cafeteria,Paper,30.056342450000002,31.317697950000003,60,88,Needs Collection,2026-08-14,High,Online
+B09,Dormitory,Plastic,30.057451450000006,31.315901950000004,60,53,Monitor,2026-08-14,Medium,Online
+B10,Agriculture,Metal,30.054824450000005,31.318149950000006,40,66,Monitor,2026-08-13,Medium,Online
+B11,Administration,Organic,30.057206450000002,31.315171950000003,70,46,Monitor,2026-08-12,Medium,Online
+B12,Student Activities,Plastic,30.056060450000004,31.319373950000003,50,80,Needs Collection,2026-08-15,High,Online
+B13,Engineering,Organic,30.055128450000005,31.316146950000004,50,78,Needs Collection,2026-08-13,High,Online
+B14,Cafeteria,Plastic,30.056430450000004,31.316994950000005,50,50,Monitor,2026-08-13,Medium,Online
+B15,Dormitory,Organic,30.057466450000003,31.315913950000006,60,66,Monitor,2026-08-13,Medium,Online
+B16,Agriculture,Plastic,30.054902450000004,31.318267950000006,60,43,Monitor,2026-08-14,Medium,Online
+B17,Administration,Metal,30.057112450000005,31.315151950000004,40,33,Normal,2026-08-12,Low,Online
+B18,Student Activities,Organic,30.056028450000003,31.319371950000004,40,25,Normal,2026-08-13,Low,Online
+B19,Engineering,Paper,30.055197450000005,31.316120950000006,50,80,Needs Collection,2026-08-14,High,Online
+B20,Cafeteria,Organic,30.056071450000005,31.317418950000004,40,71,Monitor,2026-08-14,Medium,Online
